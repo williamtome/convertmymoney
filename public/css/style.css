@@ -23,3 +23,9 @@ button {
   color: #FFF;
   border-radius: 5px;
 }
+
+.result {
+  padding: 10px;
+  border: 1px solid #D8D8D8;
+  background-color: #fdfdfd;
+}
