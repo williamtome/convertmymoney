@@ -10,6 +10,11 @@ Este projeto foi desenvolvido no curso Fullstack Master da Dev Pleno, ministrado
 
 ![Preview](https://github.com/williamtome/convertmymoney/blob/master/convertmymoney.gif?raw=true)
 
+## Funcionalidades:
+Permite você obter a conversão da quantidade de dinheiro em reais (moeda brasileira **R$**) para o valor total em dólares (**$**) de acordo com a cotação atual do dólar por meio da API pública do Banco Central do Brasil **BCB**.
+
+__Obs__: O sistema não fornecerá a cotação do dólar nos **finais de semana**, nem nos **feriados**.
+
 ## Tecnologias:
 
 * [NodeJS](https://nodejs.org/en/)
