@@ -32,4 +32,10 @@ app.get('/cotacao', (req, res) => {
   }
 })
 
-app.listen(3000)
+app.listen(3000, err => {
+  if (err) {
+    console.error('Não foi possível iniciar!')
+  } else {
+    console.log('ConvertMyMoney está online.');
+  }
+})
