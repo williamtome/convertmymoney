@@ -8,7 +8,7 @@
 
 Este projeto foi desenvolvido no curso Fullstack Master da Dev Pleno, ministrado pelo [Túlio Faria](https://tuliofaria.dev/). Uma versão online está disponível em: https://convertmymoney.williamtome.vercel.app/
 
-![Preview](https://github.com/williamtome/convertmymoney/blob/master/convertmymoney.gif?raw=true)
+![Preview](https://github.com/williamtome/convertmymoney/blob/master/convertmymoney-new.gif?raw=true)
 
 ## Funcionalidades:
 Permite você obter a conversão da quantidade de dinheiro em reais (moeda brasileira **R$**) para o valor total em dólares (**$**) de acordo com a cotação atual do dólar por meio da API pública do Banco Central do Brasil **BCB**.
