@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://convertmymoney-tawny.vercel.app/">
-    <img src="https://github.com/williamtome/palpitebox/blob/master/public/logo.png?raw=true" alt="Convert My Money"/>
+    <img src="./logo-new.png" width="400" alt="Convert My Money"/>
   </a>
 </p>
 
