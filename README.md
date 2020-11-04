@@ -6,7 +6,7 @@
 
 # Convert My Money
 
-Este projeto foi desenvolvido no curso Fullstack Master da Dev Pleno, ministrado pelo [Túlio Faria](https://tuliofaria.dev/). Uma versão online está disponível em: https://convertmymoney.williamtome.vercel.app/
+Este projeto foi desenvolvido no curso Fullstack Master da Dev Pleno, ministrado pelo [Túlio Faria](https://tuliofaria.dev/). Uma versão online está disponível em: https://convertmymoney.williamtome.dev/
 
 ![Preview](https://github.com/williamtome/convertmymoney/blob/master/convertmymoney-new.gif?raw=true)
 
