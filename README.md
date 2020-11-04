@@ -20,7 +20,7 @@ __Obs__: O sistema não fornecerá a cotação do dólar nos **finais de semana*
 * [NodeJS](https://nodejs.org/en/)
 * [EJS](https://ejs.co/)
 * [Jest](https://jestjs.io/)
-* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [Flexbox CSS](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox)
 
 ## Pré-requisitos:
 
