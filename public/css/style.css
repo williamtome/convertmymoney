@@ -23,9 +23,81 @@ body {
 
 .content,
 .result {
+  display: flex;
   width: 50vw;
   display: flex;
   background: #00CC76;
+  justify-content: center;
+}
+
+.content form {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin: 0 15em;
+}
+
+.content input {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 50px 0;
+  font-size: 18px;
+  border-color: #fff;
+  border-radius: 5px;
+}
+
+.content button {
+  width: 120px;
+  height: 50px;
+  margin: 0 2.3em;
+  background-color: #009986;
+  border-color: #009986;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 18px;
+}
+
+.messages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.messages a {
+  background-color: #009986;
+  width: 120px;
+  height: 50px;
+  border-color: #009986;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 50px;
+}
+
+.success {
+  font-size: 24px;
+  color: #FFF;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.error {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  border-color: red;
+  border-radius: 5px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 24px;
+  color: #FFF;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 img {
