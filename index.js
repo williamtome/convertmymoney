@@ -36,6 +36,6 @@ app.listen(3000, err => {
   if (err) {
     console.error('Não foi possível iniciar!')
   } else {
-    console.log('ConvertMyMoney está online.');
+    console.log('ConvertMyMoney está online. Link: http://localhost:3000');
   }
 })
