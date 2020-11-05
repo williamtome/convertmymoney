@@ -25,9 +25,21 @@ body {
 .result {
   display: flex;
   width: 50vw;
-  display: flex;
   background: #00CC76;
   justify-content: center;
+}
+
+.notice {
+  width: 100%;
+  position: absolute;
+  background-color: bisque;
+}
+
+.notice p {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .content form {
