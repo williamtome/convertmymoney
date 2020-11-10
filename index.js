@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.get('/', async(req,res) => {
   const cotacao = await apiBCB.getCotacao()
   res.render('home', {
-    cotacao: convert.toMoney(cotacao)
+    cotacao: cotacao
   })
 })
 
