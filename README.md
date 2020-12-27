@@ -1,14 +1,14 @@
 <p align="center">
   <a href="https://convertmymoney-tawny.vercel.app/">
-    <img src="https://github.com/williamtome/palpitebox/blob/master/public/logo.png?raw=true" alt="Convert My Money"/>
+    <img src="./logo-new.png" width="400" alt="Convert My Money"/>
   </a>
 </p>
 
 # Convert My Money
 
-Este projeto foi desenvolvido no curso Fullstack Master da Dev Pleno, ministrado pelo [Túlio Faria](https://tuliofaria.dev/). Uma versão online está disponível em: https://convertmymoney.williamtome.vercel.app/
+Este projeto foi desenvolvido no curso Fullstack Master da Dev Pleno, ministrado pelo [Túlio Faria](https://tuliofaria.dev/). Uma versão online está disponível em: https://convertmymoney.williamtome.dev/
 
-![Preview](https://github.com/williamtome/convertmymoney/blob/master/convertmymoney.gif?raw=true)
+![Preview](https://github.com/williamtome/convertmymoney/blob/master/convertmymoney-new.gif?raw=true)
 
 ## Funcionalidades:
 Permite você obter a conversão da quantidade de dinheiro em reais (moeda brasileira **R$**) para o valor total em dólares (**$**) de acordo com a cotação atual do dólar por meio da API pública do Banco Central do Brasil **BCB**.
@@ -20,7 +20,7 @@ __Obs__: O sistema não fornecerá a cotação do dólar nos **finais de semana*
 * [NodeJS](https://nodejs.org/en/)
 * [EJS](https://ejs.co/)
 * [Jest](https://jestjs.io/)
-* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [Flexbox CSS](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox)
 
 ## Pré-requisitos:
 

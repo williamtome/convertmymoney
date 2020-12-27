@@ -1,31 +1,118 @@
 body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  position: absolute;
+  top: 25%;
+  left: 5%;  
+}
+
+.content,
+.result {
+  display: flex;
+  width: 50vw;
+  background: #00CC76;
+  justify-content: center;
+}
+
+.notice {
+  width: 100%;
+  position: absolute;
+  background-color: bisque;
+}
+
+.notice p {
   text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1 img {
-  width: 489px;
-  margin: 20px;
+.content form {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin: 0 15em;
 }
 
-input {
+.content input {
   display: block;
-  margin: 10px auto;
-  background: #FDFDFD;
-  font-size: 20px;
-  padding: 10px;
-}
-
-button {
-  margin: 20px;
-  padding: 10px;
-  font-size: 20px;
-  background-color: #11a818;
-  color: #FFF;
+  width: 200px;
+  height: 50px;
+  margin: 50px 0;
+  font-size: 18px;
+  border-color: #fff;
   border-radius: 5px;
 }
 
-.result {
-  padding: 10px;
-  border: 1px solid #D8D8D8;
-  background-color: #fdfdfd;
+.content button {
+  width: 120px;
+  height: 50px;
+  margin: 0 2.3em;
+  background-color: #009986;
+  border-color: #009986;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 18px;
+}
+
+.messages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.messages a {
+  background-color: #009986;
+  width: 120px;
+  height: 50px;
+  border-color: #009986;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 50px;
+}
+
+.success {
+  font-size: 24px;
+  color: #FFF;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.error {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  border-color: red;
+  border-radius: 5px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 24px;
+  color: #FFF;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+  width: 489px;
+  margin: 20px;
 }

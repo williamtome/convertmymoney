@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.get('/', async(req,res) => {
   const cotacao = await apiBCB.getCotacao()
   res.render('home', {
-    cotacao: convert.toMoney(cotacao)
+    cotacao: cotacao
   })
 })
 
@@ -36,6 +36,6 @@ app.listen(3000, err => {
   if (err) {
     console.error('Não foi possível iniciar!')
   } else {
-    console.log('ConvertMyMoney está online.');
+    console.log('ConvertMyMoney está online. Link: http://localhost:3000');
   }
 })
