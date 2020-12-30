@@ -1,20 +1,18 @@
 <%- include('header') %>
 
-<section class="content">
-  <div class="messages">
-    <% if(error){ %>
-      <div class="error">
-        <%= error %>
-      </div>
-    <% }else{ %>
-      <div class="success">
-        <%= quantidade %> dólares 
-        na cotação: <%= cotacao %> 
-        é igual á R$ <%= conversao %> reais.
-      </div>
-    <% } %>
-    <a href="/">Voltar</a>
-  </div>
-</section>
+<div class="messages">
+  <% if(error){ %>
+    <div class="error">
+      <%= error %>
+    </div>
+  <% }else{ %>
+    <div class="success">
+      <%= quantidade %> dólares 
+      na cotação: <%= cotacao %> 
+      é igual á R$ <%= conversao %> reais.
+    </div>
+  <% } %>
+  <a href="/">Voltar</a>
+</div>
 
 <%- include('footer') %>

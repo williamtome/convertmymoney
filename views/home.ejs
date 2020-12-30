@@ -1,11 +1,9 @@
 <%- include('header') %>
 
-<div class="content">
   <form method="GET" action="/cotacao">
     <input type="text" name="cotacao" placeholder="Cotação dólar" value="<%= cotacao %>">
     <input type="text" name="quantidade" placeholder="Quantidade de dólares">
     <button type="submit">Converter</button>
   </form>
-</div>
 
 <%- include('footer') %>
