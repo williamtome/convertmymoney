@@ -21,8 +21,7 @@ body {
   left: 5%;  
 }
 
-.content,
-.result {
+.content{
   display: flex;
   width: 50vw;
   background: #00CC76;
