@@ -18,7 +18,8 @@ body {
 .logo img {
   position: absolute;
   top: 25%;
-  left: 5%;  
+  left: 5%;
+  border: none;
 }
 
 .content{
